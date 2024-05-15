@@ -8,7 +8,7 @@ const USERNAME_KEY = "username";
 
 function paintGreetings(username) {
   greeting.classList.remove(HIDDEN_CLASSNAME);
-  greeting.innerText = `☁️Hi ${username}! Have a good day💫`;
+  greeting.innerText = `Hi ${username}!💫 Have a good day☁️`;
 }
 
 function onLoginSubmit(event) {
